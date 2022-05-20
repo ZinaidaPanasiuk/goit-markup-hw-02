@@ -5,7 +5,6 @@
     --third-title-color: #FFFFFF;
 }
 
-
 body {
 background-color: #E5E5E5;
 font-family: "Roboto", sans-serif;
@@ -183,7 +182,6 @@ background-color: #2F303A;
     color: var(--third-title-color)
 }
 
-
 .address-link {
     font-style: normal;
     font-size: 14px;
@@ -191,7 +189,6 @@ background-color: #2F303A;
     letter-spacing: 0.03em;
     color: var(--third-title-color)
 }
-
 
 .address-link:hover,
 .address-link:focus,
@@ -223,7 +220,6 @@ background-color: #2F303A;
     font-size: 18px;
     line-height: 1.62;
     letter-spacing: 0.06em;
-    color: #212121;
     color: var(--main-title-color)
 }
 
