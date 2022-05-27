@@ -43,6 +43,11 @@ font-family: "Roboto", sans-serif;
     color: var(--second-title-color);
 }
 
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--accent-color);
+}
+
 .header-link {
     font-weight: 500;
     line-height: 1.14;
@@ -51,13 +56,11 @@ font-family: "Roboto", sans-serif;
 }
 
 .header-link:hover, 
-.header-link:focus,
-.contact-link:hover,
-.contact-link:focus {
+.header-link:focus {
     color: var(--accent-color);
 }
 
-.current:active {
+.current {
     color: var(--accent-color);
 }
 
@@ -84,13 +87,13 @@ font-family: "Roboto", sans-serif;
     line-height: 1.87;
     letter-spacing: 0.06em;
     cursor: pointer;
-    background-color: #2196F3;
+    background-color: var(--accent-color);
     color: var(--third-title-color);    
 }
 
 .header-bth:hover,
 .header-bth:focus {
-    background-color: #51a7ee;
+    background-color: #2195f3e1;
 }
 
 /* Особенности */
@@ -110,6 +113,7 @@ font-family: "Roboto", sans-serif;
 
 .about-title {
     font-weight: 700;
+    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 }
@@ -185,6 +189,7 @@ background-color: #2F303A;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+    letter-spacing: 0.03em;
     text-align: center;
 }
 
